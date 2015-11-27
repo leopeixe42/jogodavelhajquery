@@ -114,6 +114,11 @@ $("button").click(function() {
     click = parseInt(click) + 1;
     $("input[type='hidden']").val(click);
     $(this).text(simbolo);
+
+    if(click == 9){
+        alert("Deu velha !")
+    }
+
     mudarjogador();
     verificadorhorizontal();
     verificadorvertical();
