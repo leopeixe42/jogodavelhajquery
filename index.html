@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Jogo da Velha - Shit Games</title>
+  <link rel="stylesheet" type="text/css" href="assets/css/main.css">
+  <link rel="stylesheet" type="text/css" href="assets/vendor/bower/bootstrap/dist/css/bootstrap.min.css">
+ </head>
+<body>
+<div class="aligner">
+  <h1 onclick="tocolorFunction(this, 'red')">Jogo da Velha com JQuery</h1>
+  <p>
+  Prox jogador:
+  <label id="jogador">X</label>
+  </p>
+  <table>
+    <tr>
+      <td>
+        <button name="a1">?</button></td>
+      <td>
+        <button name="a2">?</button></td>
+      <td>
+        <button name="a3">?</button></td>
+    </tr>
+    <tr>
+      <td>
+        <button name="b1">?</button></td>
+      <td>
+        <button name="b2">?</button></td>
+      <td>
+        <button name="b3">?</button></td>
+    </tr>
+    <tr>
+      <td>
+        <button name="c1">?</button></td>
+      <td>
+        <button name="c2">?</button></td>
+      <td>
+        <button name="c3">?</button></td>
+    </tr>
+    <input type="hidden" value="0" name="click_valida" />
+  </table>
+</div>
+  <script type="text/javascript" src="assets/vendor/bower/jquery/dist/jquery.min.js"></script>
+  <script type="text/javascript" src="assets/javascript/app.js"></script>
+</body>
+</html>

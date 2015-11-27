@@ -1,0 +1,22 @@
+{
+  "name": "jogin",
+  "version": "0.0.0",
+  "authors": [
+    "odranoel"
+  ],
+  "moduleType": [
+    "globals"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": ">=1.6",
+    "bootstrap": "3.3.5"
+  }
+}

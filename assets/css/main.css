@@ -1,0 +1,8 @@
+table {
+    display: inline-block;
+}
+.aligner {
+    text-align: center;
+    width: 500px;
+    margin: auto auto;
+}
